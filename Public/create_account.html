@@ -1,0 +1,55 @@
+<!--
+ * Author: Yunha Jo, Shrey Srivastava
+ * CS 121 Winter 2024
+ * Date: March 15, 2024
+ * This is the create account for users for final project, REGIS-based database that
+ * improves User Interaction
+ */ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-signup.css">
+    <script src = "js/helpers.js"></script>
+    <script src = "js/nav-bar.js"></script>
+    <script defer src="js/create-account.js"></script>
+    <title>Tration_Account</title>
+ </head>
+ <body>
+    <header>
+        <div id = header-bar>
+            <a href = "index.html">Home</a>
+            <form id="form"> 
+                <input type="search" id="search-bar" name="q" placeholder="Search not supported">
+                <button>Search</button>
+            </form>
+            <a href = "login.html">Log In</a>
+        </div>
+        <nav id ="nav-category"></nav>
+    </header>
+    <main>
+        <form id = "create-account"> 
+            <label for="fname">First Name:</label>
+            <input type="text" name="first-name" placeholder="">
+            <label for="fname">Last Name:</label>
+            <input type="text" name="last-name" placeholder="">
+            <label for="fname">Username:</label>
+            <input type="text" name="username" placeholder="">
+            <label for="fname">Password:</label>
+            <input type="text" name="password" placeholder="">
+            <label for="fname">Please select a Category:</label>
+            <select name="grade" id="grade">
+                <option value="1">Freshman</option>
+                <option value="2">Sophomore</option>
+                <option value="3">Junior</option>
+                <option value="4">Senior</option>
+            </select>
+            <label for="fname">Major:</label>
+            <input type="text" name="major" placeholder="">
+            <button type="button" id="signup-button">Sign Up</button>
+        </form>
+    </main>
+</body>

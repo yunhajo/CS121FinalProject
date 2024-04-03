@@ -1,0 +1,49 @@
+/*
+ * CS 121 Winter 2024
+ * This is the style.css page for the courses_offered.html page for final project. 
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 20px;
+}
+
+#all-courses {
+    display: flex;
+    flex-direction: column;
+}
+
+#all-courses > div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 40pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#all-courses h2 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}

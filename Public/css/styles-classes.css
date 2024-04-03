@@ -1,0 +1,79 @@
+/*
+ * CS 121 Winter 2024
+ * This is the style.css page for the classes_department.html page for final project. 
+ */
+
+body {
+    margin: 0;
+}
+
+#department-classes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#department-classes > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #3E7CB1;
+}
+
+#department-classes h1 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-classes h2 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 30pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-classes h3 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: gray;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-classes h4 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: gray;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-classes h5 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #3E7CB1;
+    font-size: 15pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-classes p {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #0F084B;
+    font-size: 15pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}

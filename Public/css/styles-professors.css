@@ -1,0 +1,49 @@
+/*
+ * CS 121 Winter 2024
+ * This is the style.css page for the professors_department.html page for final project. 
+ */
+
+ body {
+    margin: 0;
+}
+
+#department-professors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#department-professors > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 50px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #3E7CB1;
+}
+
+#department-professors h1 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#department-professors h2 {
+    font-family: Helvetica,  Arial, sans-serif;
+    color: #26408B;
+    font-size: 30pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
